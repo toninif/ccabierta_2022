@@ -1,0 +1,97 @@
+/*-- scss:defaults --*/
+
+@font-face {
+  font-family: tituloJedi;
+  src: url(Starjedi.ttf);
+}
+
+$body-bg: #000000;
+$body-color: #000000;
+$link-color: #248f24;
+$presentation-heading-color: #000000;
+$code-color: #cc0000;
+$code-block-bg: #787878; // Esto es para el fondo del codigo
+$code-block-border-color: #000000;
+
+/*-- scss:rules --*/
+
+
+.reveal .slide-number {
+  position: absolute;
+  color: $link-color;
+  left: 750px;
+  top: 700px;
+}
+
+.reveal .footer {
+  font-size: 0.35em !important;
+  text-align: right !important;
+  
+}
+
+.reveal .slides section .fragment.semi-fade-out {
+	opacity: 1;
+	visibility: inherit;
+
+	&.visible {
+		opacity: 0.25;
+		visibility: inherit;
+	}
+}
+
+
+
+.title {
+  position: absolute;
+  left: 0px;
+  top: -100px;
+  font-family: tituloJedi !important;
+  font-size: 1.3em !important;
+}
+
+.author {
+  position: absolute;
+  left: 0px;
+}
+
+
+h2 {
+  position: absolute;
+  left: 0px;
+  top: 75px;
+}
+
+
+//table, th, td {
+//  padding: 15px;
+//}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+  font-size: .7em !important;
+//  border-bottom: 1px solid #ddd;
+}
+
+td {
+  font-size: .5em !important;
+//  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #CCFFCC;
+  
+}
+
+th, td {
+  border-bottom: .5px solid #ddd;
+}
+
+
+
+
+

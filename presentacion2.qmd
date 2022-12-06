@@ -1,0 +1,327 @@
+---
+title: "Ciencia Abierta: A new hope"
+title-slide-attributes:
+    data-background-image: "imagenes/fondoParaElYalm.jpg"
+    data-background-size: "100% 100%"
+    data-background-opacity: "1"
+author: "Fernando Tonini"
+from: markdown+emoji
+format: 
+  revealjs:
+    preview-links: auto
+    footer: " :link: [Link al repositorio ](https://osf.io/amjxu/?view_only=f1a5d7383e8b458aaf440b236d2a4644)&nbsp;&nbsp;&nbsp;"
+    output-file: docs
+    theme: custom.scss
+editor: visual
+---
+
+##  {background-color="black" background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+```{r setup, include=FALSE}
+library(fontawesome)
+```
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: left; color:#000000; font-size: 25px"}
+::: {.absolute top="125" left="0" width="100%" height="100%"}
+![](imagenes/perfil.jpeg){height="250px"}
+
+**Contacto:**
+
+`r fa("twitter")` [\@toninifer](https://twitter.com/toninifer)
+
+`r fa("github")` [\@toninif](https://github.com/toninif)
+
+`r fa("link")` [Web](https://toninif.github.io)
+
+`r fa("envelope")` fernandotonini11@gmail.com
+:::
+:::
+:::
+
+::: {.column width="60%"}
+::: incremental
+::: {style="color:#000000; font-size: 25px"}
+-   Trabajo con estímulos que inducen emociones en contexto experimental
+-   Fan de R y todo lo que se le relacione. Uso R para armar presentaciones, generar documentos y principalemnte para analisis y visualización de datos
+-   Codigo y datos abiertos
+:::
+:::
+:::
+:::
+
+## Un comienzo *raro* {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+<!-- [![](imagenes/Screenshot%202022-09-01%20at%2021-27-06%20Behavioral%20Science%20is%20just%20plain%20WEIRD.%20Blog%20Monk%20Prayogshala.png){fig-align="center" height="200px"}](https://www.monkprayogshala.in/blog/2017/3/20/behavioral-science-is-just-plain-weird) -->
+
+::: r-stack
+![](imagenes/imagen1.png){.fragment height="200px"}
+
+![](imagenes/imagen2.png){.fragment height="150px"}
+
+![](imagenes/imagen3.png){.fragment height="200px"}
+
+![](imagenes/imagen4.png){.fragment height="200px"}
+
+![](imagenes/imagen5.png){.fragment height="150px"}
+
+![](imagenes/imagen6.png){.fragment height="200px"}
+
+![](imagenes/imagen7.png){.fragment height="200px"}
+
+![](imagenes/imagen8.png){.fragment height="200px"}
+:::
+
+::: {style="text-align: left; font-size: 25px"}
+[Nota sobre muestras "raras"](https://www.monkprayogshala.in/blog/2017/3/20/behavioral-science-is-just-plain-weird){preview-link="true"} / [Open Science Framework](https://osf.io/){preview-link="true"}
+
+[Prácticas de investigación cuestionables (QRP)](https://replicationindex.com/2015/01/24/qrps/) / [Buenas Prácticas de Investigación](https://www.fosteropenscience.eu/learning/best-practice-in-open-research_es/#/id/5bcebce6aa64413556c3e6ab)
+:::
+
+## Ciencia Abierta / Open Science {background-image="imagenes/fondo2.jpg" background-size="100% 100%" auto-animate="true" auto-animate-easing="ease-in-out"}
+
+<br> <br> <br> <br> <br>
+
+::: r-hstack
+::: {data-id="box1" auto-animate-delay="0" style="background: #1BE7FF; width: 200px; height: 150px; margin: 10px;"}
+::: {.absolute top="10" left="20"}
+**Acceso Abierto**
+:::
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #6EEB83; width: 200px; height: 150px; margin: 10px;"}
+::: {.absolute top="10" left="20"}
+**Datos Abiertos**
+:::
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #E4FF1A; width: 200px; height: 150px; margin: 10px;"}
+::: {.absolute top="10" left="20"}
+**Reprodu-** **cibilidad**
+:::
+:::
+
+::: {data-id="box4" auto-animate-delay="0.3" style="background: #E8AA14; width: 200px; height: 150px; margin: 10px;"}
+::: {.absolute top="35" left="15"}
+**Politicas**
+:::
+:::
+
+::: {data-id="box5" auto-animate-delay="0.4" style="background: #FF5714; width: 200px; height: 150px; margin: 10px; font-size: 30px"}
+::: {.absolute top="45" left="8"}
+**Herramientas**
+:::
+:::
+:::
+
+::: {style="margin-top: -250px; font-size: 29px"}
+Un conjunto de prácticas
+:::
+
+::: {style="font-size: 15px; margin-top: 200px; margin-left: 1000px"}
+[Fuente](https://open-science-training-handbook.github.io/Open-Science-Training-Handbook_ES//02OpenScienceBasics/01OpenConceptsAndPrinciples.html){preview-link="true"}
+:::
+
+## Ciencia Abierta / Open Science {background-image="imagenes/fondo2.jpg" background-size="100% 100%" auto-animate="true" auto-animate-easing="ease-in-out"}
+
+<br> <br> <br> <br>
+
+::: r-stack
+::: {data-id="box1" style="background: #1BE7FF; width: 350px; height: 350px; border-radius: 200px;"}
+:::
+
+::: {data-id="box2" style="background: #6EEB83; width: 250px; height: 250px; border-radius: 200px;"}
+:::
+
+::: {data-id="box3" style="background: #E4FF1A; width: 150px; height: 150px; border-radius: 200px;"}
+:::
+
+::: {data-id="box4" style="background: #E8AA14; width: 100px; height: 100px; border-radius: 200px;"}
+:::
+
+::: {data-id="box5" style="background: #FF5714; width: 50px; height: 50px; border-radius: 200px;"}
+:::
+:::
+
+::: {style="margin-top: -200px; font-size: 40px; color: red"}
+*Ciencia Abierta*
+:::
+
+## Ciencia Abierta / Open Science {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+::: {.absolute top="200" left="300" width="75%" height="75%"}
+::: {style="width:100%;height:0;padding-bottom:75%;position:relative;"}
+<iframe src="https://giphy.com/embed/ANbD1CCdA3iI8" width="50%" height="50%" style="position:absolute; top:200; left:600;" frameBorder="0" class="giphy-embed" allowFullScreen>
+
+</iframe>
+:::
+:::
+
+## Algunos ejemplos {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+::: callout-warning
+## Situacion 1 - Acceso
+
+Datos y codigo disponible contactandose con los autores
+:::
+
+. . .
+
+::: callout-important
+## Situacion 2 - Comunicación
+
+No se obtienen respuestas
+:::
+
+. . .
+
+::: callout-important
+## Situacion 3 - Reproducir analisis
+
+No se comprende o no esta bien detallado la sección de analisis
+:::
+
+## Algunos ejemplos {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+::: incremental
+::: {style="text-align: left; font-size: 25px"}
+Lo fácil que es [compartir datos](https://journals.sagepub.com/doi/pdf/10.1177/2515245918757689){preview-link="true"}, código o todo el proyecto de nuestra investigación
+
+1.  Creamos una cuenta en [OSF](https://osf.io/)
+
+2.  Generamos un nuevo proyecto
+
+3.  Cargamos los archivos
+
+4.  Compartimos el link a quien lo necesite
+:::
+:::
+
+## Algunos ejemplos {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+![](imagenes/Screenshot%202022-09-02%20at%2000-10-03%20datos%20normativos%20IAPS%20tercera%20validaci%C3%B3n.png){width="700"}
+
+## Algunos ejemplos {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+::: {style="text-align: left; font-size: 25px"}
+Al compartir `código`:
+
+-   se genera mayor transparencia
+
+-   se puede comentar lo que se hizo y obtener feedback valioso
+
+-   potencia el aprendizaje y la reproducibilidad de lo que hicimos
+:::
+
+```{r, echo=TRUE, eval=FALSE, `code-line-numbers`="1-2"}
+library(tidyverse) # En esta linea se carga el paquete que nos permite manejar datos
+library(palmerpenguins) # En esta linea se carga el paquete con los datos
+
+nuestrosDatos <- penguins %>% # En esta linea se cargan datos
+  filter(species == "Adelie") # En esta linea se filtran datos
+
+```
+
+## Algunos ejemplos {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+::: {style="text-align: left; font-size: 25px"}
+Al compartir `código`:
+
+-   se genera mayor transparencia
+
+-   se puede comentar lo que se hizo
+
+-   potencia el aprendizaje y la reproducibilidad de lo que hicimos
+:::
+
+```{r, echo=TRUE, eval=FALSE, `code-line-numbers`="4-5"}
+library(tidyverse) # En esta linea se carga el paquete que nos permite manejar datos
+library(palmerpenguins) # En esta linea se carga el paquete con los datos
+
+nuestrosDatos <- penguins %>% # En esta linea se cargan datos
+  filter(species == "Adelie")  # En esta linea se filtran datos
+
+```
+
+## Recursos (además de twitter...) {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Categoría      | Tipo            | Recurso                                                                                                           | Lenguaje | Descripción                                                                       |
++================+=================+===================================================================================================================+==========+===================================================================================+
+| General        | Manuales        | [Link](https://open-science-training-handbook.github.io/Open-Science-Training-Handbook_ES//01Introduction/):link: | Español  | Manual sobre Ciencia Abierta                                                      |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| General        | R               | [Link](https://psyteachr.github.io/):link:                                                                        | Ingles   | Muchisimos recursos para arrancar y formarse en R.                                |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Datos          | R               | [Link](https://www.youtube.com/watch?v=OmEvkDCt3xk&t=1202s):link:                                                 | Ingles   | Como hacer datos sinteticos para poder compartir sin revelar informacion sensible |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Presentaciones | R - Quarto      | [Link](https://www.youtube.com/watch?v=yvi5uXQMvu4&t=321s):link:                                                  | Ingles   | Un workshop para arrancar a generar presentaciones con Quarto                     |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Analisis       | R               | [Link](https://spiousas.github.io/Inferencia_con_R_UNQ2022/#) :link:                                              |          | Curso de analisis de datos con R                                                  |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Analisis       | Manual          | [Link](https://es.r4ds.hadley.nz/):link:                                                                          | Español  | Manual para arrancar en el analisis de datos con R                                |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Datos          | Tutorial        | [Link](https://journals.sagepub.com/doi/pdf/10.1177/2515245918757689) :link:                                      | Ingles   | Como compartir datos en Open Science Framework                                    |
+|                |                 |                                                                                                                   |          |                                                                                   |
+|                |                 | [Link](https://help.osf.io/article/218-sharing-data) :link:                                                       |          |                                                                                   |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| Codigo         | Tutorial        | [Link](https://www.scielo.br/j/rac/a/TwQwLHn8rwW45M5WCmj6P5d/?lang=en) :link:                                     | Ingles   | La importancia de compartir codigo                                                |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+| General        | Recursos varios | [Link](https://sites.google.com/view/recursosphd):link:                                                           | Español  |                                                                                   |
++----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+----------+-----------------------------------------------------------------------------------+
+
+## Recursos (además de twitter...) {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+| Categoria     | Tipo      | Recurso                                                                           | Lenguaje                     | Descripción                                                      |
++===============+===========+===================================================================================+==============================+==================================================================+
+| Analisis      | Tutorial  | [Link](https://how-to-open.science/analyze/reproducibility/) :link:               | Ingles                       | Comenta sobre como empezar a trabajar con analisis reproducibles |
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+| Pre-registro  | Sitio web | [Link](https://aspredicted.org/):link:                                            | Ingles                       | Sitio donde se pueden realizar pre-registros                     |
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+| Pre-Registro  | Workshop  | [Link](https://osf.io/yd487):link:                                                | Ingles                       | Introducción a los pre-registros                                 |
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+| Materiales    | Software  | [Link](https://www.psychopy.org/):link: [Link](https://www.psytoolkit.org/):link: | Ingles / Python / JavaScript | Herramientas donde se pueden programar y hostear experimentos    |
+|               |           |                                                                                   |                              |                                                                  |
+|               |           | [Link](https://www.jspsych.org/7.3/):link:[Link](https://pavlovia.org/):link:     |                              |                                                                  |
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+| Repositorios  | Web       | [Link](https://github.com/):link: [Link](https://zenodo.org/):link:               | Ingles                       | Más repositorios donde alojar datos, codigo y materiales         |
+|               |           |                                                                                   |                              |                                                                  |
+|               |           | [Link](https://figshare.com/):link:                                               |                              |                                                                  |
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+| Publicaciones |           | [Link](https://doaj.org/):link: [Link](https://psyarxiv.com/):link:               | Ingles                       | Acceso abierto y donde encontrarlo                               |
++---------------+-----------+-----------------------------------------------------------------------------------+------------------------------+------------------------------------------------------------------+
+
+##  {background-image="imagenes/fondo2.jpg" background-size="100% 100%"}
+
+<br> <br> <br>
+
+::: {style="font-size: 70px"}
+::: {.absolute top="200" left="0"}
+***Muchas gracias!***
+:::
+:::
+
+::: {style="font-size: 20px"}
+::: {.absolute top="600" left="400"}
+Hecho con ❤️❤️,`r fa("r-project", fill = "steelblue")` y Quarto!
+:::
+:::
